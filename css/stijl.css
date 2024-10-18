@@ -1,0 +1,72 @@
+body {
+    background-color:  	#141414;
+}
+
+h2 {
+    color: lightblue;
+    text-align:  center;
+}
+h3 {
+    color: lightblue;
+    text-align:  center;
+}
+
+p {
+    color: lightblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+ul li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: darkgray;
+  }
+
+  .intro {
+    float: right;
+    padding-right: 40%;
+  }
+
+  .indexFoto {
+    float: left;
+    padding-left: 5%;
+  }
+
+  .hobbieText {
+    text-align: center;
+  }
+
+  #wow {
+    padding-right: 5%;
+  }
+  
+  #topGames {
+    color: lightblue;
+    float: left;
+  }
+
+  .contactContainer {
+    text-align: center;
+  }
+
+  .form {
+    text-align: center;
+    color: lightblue;
+  }
