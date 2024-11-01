@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/stijl.css">
 </head>
 <body>
@@ -24,16 +25,31 @@
 
     <div class="form">
         <p>Contact form</p>
-    <form action="post">
+        <form action="https://tm-statweb.be/forms.php" method="POST" id="contactForm">
         <label for="name">Naam :</label>
-        <input id="name" type="text"><br>
+        <input id="name" type="text" required><br>
         <label for="email">Email :</label>
-        <input id="email" type="text"><br>
+        <input id="email" type="email" placeholder="voorbeeld@mail.com" required><br>
         <label for="onderwerp">Onderwerp :</label>
-        <input id="onderwerp" type="text"><br>
+        <select name="onderwerp" id="onderwerp">
+            <option value="html">HTML</option>
+            <option value="script">JS/TS</option>
+            <option value="php">PHP</option>
+            <option value="csharp">c#</option>
+        </select><br>
         <label for="vraag">Stuur je vraag door :</label>
-        <textarea name="vraag" id="vraag">stel je vraag</textarea>
+        <textarea name="vraag" id="vraag">stel je vraag</textarea><br>
+        <input type="submit" value="Submit">
     </form>
     </div>
+
+    <footer class="flex-container">
+        <div><p>Copyright Pauwels Jason</p></div>
+        <div>
+            <img src="image/facebook_5968764.png" alt="facebook icon" height="50px">
+            <img src="image/instagram_2111463.png" alt="instagram icon" height="50px">
+            <img src="image/outgoing-call_12642870.png" alt="phone icon" height="50px">
+        </div>
+    </footer>
 </body>
 </html>
