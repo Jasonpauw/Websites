@@ -32,7 +32,6 @@ li a {
   }
   
   footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -77,4 +76,8 @@ li a {
   .form {
     text-align: center;
     color: lightblue;
+  }
+
+  .carousel-container {
+    align-items: center;
   }
